@@ -1,10 +1,10 @@
 
 # Simulação Baseada em Agentes do Comportamento de Triatomíneos
 
-![Animação da Simulação- em ambiente controlado ]()
+![Animação da Simulação- em ambiente controlado ](https://github.com/Yxnnx/simulador-barbeiros/blob/main/controlado.gif)
 > Animação demonstrando o comportamento de agregação dos agentes em ambiente controlado.
 > 
-![Animação da Simulação- em ambiente natural ]()
+![Animação da Simulação- em ambiente natural ](https://github.com/Yxnnx/simulador-barbeiros/blob/main/natural.gif)
 
 > Animação demonstrando o comportamento de agregação dos agentes em ambiente natural.
 
