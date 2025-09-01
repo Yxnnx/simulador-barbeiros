@@ -32,6 +32,33 @@ Cada "barbeiro" é um agente autônomo e o comportamento complexo do grupo emerg
 *   **Manipulação de Dados:** `numpy`
 *   **Visualização:** `matplotlib` para a geração da animação.
 
+
+### Cores dos Estímulos (Áreas Circulares)
+
+As áreas coloridas no ambiente representam as zonas de influência dos estímulos. Cada cor corresponde a um tipo de estímulo, alinhado com sua função biológica:
+
+*   🟣 **Roxo (`purple`): Abrigo (Feromônio)**
+    *   **Significado:** Representa o refúgio principal. 
+
+*   🟢 **Verde (`green`): Fonte Alimentar (Odor)**
+    *   **Significado:** Indica a presença de uma fonte de alimento (um hospedeiro). 
+
+*   🟠 **Laranja (`orangered`): Estímulo Térmico**
+    *   **Significado:** Representa o calor emitido por um hospedeiro.
+    *   
+### Cores dos Agentes (Círculos em Movimento)
+
+
+*   ⚫ **Preto (`black`): Busca Ativa**
+    *   **Significado:** Este é o estado padrão do agente após o período inicial de adaptação. Um agente preto está ativamente procurando por estímulos no ambiente, movendo-se em direção àquele que exerce a maior força de atração.
+
+*   🔵 **Azul (`blue`): Saciado**
+    *   **Significado:** Um agente se torna azul após passar um tempo na "Fonte Alimentar". Este estado indica que sua necessidade de se alimentar foi satisfeita.
+
+*   ⚪ **Cinza (`gray`): Fuga**
+    *   **Significado:** Representa o estado inicial do agente ao ser introduzido em um ambiente novo ou "controlado". O agente se move rapidamente pelas bordas da arena, um comportamento de estresse ou exploração antes de se "acalmar" e iniciar a busca ativa.
+
+
 ##  Resultados e Conclusões
 
 A simulação validou as hipóteses baseadas nos dados experimentais feitos em laboratório:
