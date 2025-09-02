@@ -20,9 +20,9 @@ Cada "barbeiro" é um agente autônomo e o comportamento complexo do grupo emerg
 
 *   **Estados Comportamentais:** Os agentes alternam entre um estado inicial de **Fuga/Exploração** (movimento rápido pelas bordas) e um estado de **Busca Ativa**.
 *   **Hierarquia de Estímulos:** No estado de busca, os agentes são atraídos por três tipos de estímulos com forças diferentes, refletindo a preferência biológica:
-    1.  **Abrigo (Feromônio):** O estímulo mais forte (`forca: 0.9`), representando o local de agregação e segurança.
-    2.  **Fonte Alimentar (Odor):** Um estímulo intermediário (`forca: 0.5`), representando um hospedeiro.
-    3.  **Estímulo Térmico:** O estímulo mais fraco (`forca: 0.2`), associado ao calor do hospedeiro.
+    1.  **Abrigo (Feromônio):** O estímulo mais forte, representando o local de agregação e segurança.
+    2.  **Fonte Alimentar (Odor):** Um estímulo intermediário, representando um hospedeiro.
+    3.  **Estímulo Térmico:** O estímulo mais fraco, associado ao calor do hospedeiro.
 *   **Lógica de Saciação e Parada:** Após passar um tempo perto da fonte alimentar, um agente fica "saciado" e passa a ignorar este estímulo, focando exclusivamente em encontrar o abrigo. A simulação termina quando todos os agentes encontram o abrigo e cessam seu movimento.
 
 ## 🚀 Tecnologias Utilizadas
